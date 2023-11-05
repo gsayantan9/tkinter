@@ -4,7 +4,7 @@
 // }
 
 pub fn gcd(mut a: u32, mut b: u32)->u32 {
-    assert!(a>0 && b>0);
+    assert!(a!=0 && b!=0);
     if b > a {
         // let mut remainders_list = vec![];
         // let mut remainders_list = Vec::new();
